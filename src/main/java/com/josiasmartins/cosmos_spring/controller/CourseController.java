@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
 @RequestMapping("/course")
 public class CourseController {
 
@@ -22,7 +23,7 @@ public class CourseController {
     }
 
     @GetMapping
-    @ResponseStatus(HttpStatus.CREATED)
+    @ResponseStatus(HttpStatus.OK)
     public List<CourseResponseDTO> listCourse() {
         return this.courseService.getCourses();
     }

@@ -2,7 +2,7 @@ package com.josiasmartins.cosmos_spring.domain.DTO;
 
 import com.josiasmartins.cosmos_spring.domain.entity.Course;
 import com.josiasmartins.cosmos_spring.repository.CourseRepository;
-import com.microsoft.azure.spring.data.cosmosdb.core.mapping.PartitionKey;
+//import com.microsoft.azure.spring.data.cosmosdb.core.mapping.PartitionKey;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 
